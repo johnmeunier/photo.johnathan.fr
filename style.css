@@ -2,6 +2,7 @@
 --verdigris: #82aeb1ff;
 --sky-blue: #93c6d6ff;
 --old-rose: #ce796bff;
+--background: rgba(206, 120, 107, 0.056);
 --persian-orange: #c18c5dff;
 --paynes-gray: #495867ff;
 --main-text: rgb(43, 49, 57);
@@ -20,6 +21,10 @@
 @font-face {
   font-family: "GoldenBloom";
   src: url('./assets/fonts/golden-bloom.ttf');
+}
+
+body{
+  background-color: var(--background);
 }
 
 header{
