@@ -32,7 +32,7 @@ body{
 }
 
 header{
-  background-image: linear-gradient(to bottom, #49586788, #ce796b88), url('./assets/img/cover.jpg');
+  background-image: linear-gradient(to bottom, #49586788, #ce796b88), url('./assets/img/optim/cover.jpg');
   background-size: cover;
   background-position: center 80%;
   width: 100%;
