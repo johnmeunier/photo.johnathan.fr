@@ -255,5 +255,66 @@ h2.quote{
     text-align: left;
     margin-right: 0;
   }
-  }
+}
+
+.contact{
+  background-color: var(--persian-orange);
+  color: #fff;
+  padding: 50px 0px;
+  opacity: .9;
+
+}
+
+.contact h2{
+  font-family: 'GoldenBloom';
+  font-size: 7em;
+  margin-bottom: 20px;
+}
+
+.contact h3{
+  font-family: 'Proxima';
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact .field{
+  margin-bottom: 20px;
+}
+
+.contact label{
+  display: block;
+  font-family: 'Proxima';
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
+
+.contact input, .contact textarea, .contact button{
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 20px;
+  width: 500px;
+  max-width: 100%;
+  font-family: 'Proxima';
+  font-size: 1.25em;
+  border: 3px solid transparent;
+  transition: all ease-in-out .2s;
+  color: #941600;
+  opacity: 0.6;
+}
+
+.contact input, .contact textarea{
+
+}
+
+
+.contact button{
+  color: #000;
+}
+
+.contact button:hover{
+  border-color: #fff;
+  opacity: 1;
+  transition: all ease-in-out .2s;
+  cursor: pointer;
 }
