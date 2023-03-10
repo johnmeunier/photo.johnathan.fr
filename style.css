@@ -165,7 +165,7 @@ h2.quote{
 }
 
 .categories{
-
+  overflow-x: hidden;
 }
 
 .category{
@@ -317,4 +317,23 @@ h2.quote{
   opacity: 1;
   transition: all ease-in-out .2s;
   cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .category-grid-animation, .category-meta-animation{
+    transform: translate(0, 0) !important;
+    transition: all 0.3s ease-in-out;
+  }
+  .category-grid {
+		transform: translate(calc((100% + 10%) * -1), 100px);
+  }
+  .category:nth-child(2n) .category-grid{
+		transform: translate(calc((100% + 10%)), 100px);
+  }
+  .category-meta{
+		transform: translate(calc((100% + 10%)), 100px);
+  }
+  .category:nth-child(2n) .category-meta{
+		transform: translate(calc((100% + 10%) * -1), 100px);
+  }
 }
